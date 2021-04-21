@@ -1,0 +1,22 @@
+//指定使用pb3(Protocol Buffer)
+syntax = "proto3";
+//命名空间
+option csharp_namespace = "GrpcGreeterClient";
+
+package greet;
+
+// 定义服务
+service Weeks {
+  // 发送一个服务请求参数包含HelloRequest对象，响应参数包含HelloReply对象
+  rpc SayWeeksDay (WeeksRequest) returns (WeeksDayReply);
+}
+
+//请求对象
+message WeeksRequest {
+  int32 day= 1;
+}
+
+//响应对象
+message WeeksDayReply {
+  string message = 1;
+}

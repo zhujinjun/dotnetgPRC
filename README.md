@@ -1,9 +1,9 @@
-#gRPC介绍
+# gRPC介绍
 * gRPC Google开源的、跨语言的
 * 高性能的远程过程调用（RPC）框架
 * gRPC使客户端和服务端应用程序可以透明地进行通信
 
-#.NETCore-gRPC
+# .NETCore-gRPC
 
 ``GrpcGreeter`` 服务端程序、``GrpcGreeterClient`` 客户端程序
 

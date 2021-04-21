@@ -1,0 +1,2 @@
+obj\Debug\netcoreapp3.1\Protos/Week.cs \
+obj\Debug\netcoreapp3.1\Protos/WeekGrpc.cs: Protos/week.proto
